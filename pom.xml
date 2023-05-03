@@ -166,6 +166,9 @@
 						<version>2.3.1</version>
 					</dependency>
 				</dependencies>
+				<configuration>
+					<jacocoReports>${basedir}/report-coverage/target/site/jacoco-aggregate/jacoco.xml</jacocoReports>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
