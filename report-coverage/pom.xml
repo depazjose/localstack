@@ -7,6 +7,7 @@
         <groupId>com.mdt</groupId>
         <artifactId>local</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>report-coverage</artifactId>
@@ -14,6 +15,7 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <maven-failsafe-plugin.version>2.18.1</maven-failsafe-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jacoco-maven-plugin.version>0.8.10</jacoco-maven-plugin.version>
