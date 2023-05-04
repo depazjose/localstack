@@ -11,8 +11,10 @@
 - [Coveralls](https://docs.coveralls.io/) code coverage
 - [Hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
 
+
 ## Status
 [![Coverage Status](https://coveralls.io/repos/github/depazjose/localstack/badge.svg?branch=main)](https://coveralls.io/github/depazjose/localstack?branch=main)
+
 
 ## Project structure
 ```bash
